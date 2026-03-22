@@ -1,0 +1,9 @@
+<%- | String $app_host, Integer $app_port | -%>
+# Managed by Puppet — Golden Signal Dashboard upstream hints
+# App binds to <%= $app_host %>:<%= $app_port %> (Streamlit)
+
+GOLDEN_SIGNAL_APP_HOST=<%= $app_host %>
+GOLDEN_SIGNAL_APP_PORT=<%= $app_port %>
+
+# Example reverse-proxy upstream (document only; configure nginx/apache separately)
+# proxy_pass http://<%= $app_host %>:<%= $app_port %>;
