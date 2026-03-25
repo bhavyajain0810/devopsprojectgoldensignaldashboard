@@ -228,19 +228,6 @@ API Documentation: Not applicable (no REST API; Streamlit reads CSV data).
 Docker, CI, and Puppet notes: [Implementation Guide](docs/implementation.md)  
 Troubleshooting: [Implementation Guide — Troubleshooting](docs/implementation.md#troubleshooting)  
 
-## Demo
-
-### Demo Video
-
-Not included in this submission.
-
-### Live Demo
-
-Not hosted for this submission. Run locally with Docker or Streamlit as described in **Getting Started**.
-
-URL: N/A  
-Username: N/A  
-Password: N/A  
 
 ## Development Workflow
 
@@ -264,30 +251,6 @@ main
 - `refactor:` Code refactoring  
 - `chore:` Maintenance tasks  
 
-## Security
-
-### Security Measures Implemented
-
-- [ ] Input validation and sanitization *(CSV parsed with Pandas; extend as needed)*  
-- [ ] Authentication and authorization *(not in scope)*  
-- [x] Environment-based configuration *(optional `.env` pattern documented)*  
-- [ ] Regular dependency updates *(recommended practice for maintainers)*  
-- [ ] Security headers in web applications *(reverse-proxy concern for production)*  
-
-### Security Scanning
-
-```bash
-# Example (not run in CI for this submission):
-# trivy image devopsprojectgoldensignaldashboard:latest
-```
-
-## Contributing
-
-1. Fork the repository  
-2. Create a feature branch (`git checkout -b feature/amazing-feature`)  
-3. Commit changes (`git commit -m 'Add amazing feature'`)  
-4. Push to branch (`git push origin feature/amazing-feature`)  
-5. Open a Pull Request  
 
 ## License
 
@@ -309,12 +272,4 @@ This project is licensed under the MIT License — see the [LICENSE](LICENSE) fi
 
 Course Instructor: Mr. Jay Shankar Sharma  
 Reference materials and tutorials  
-Open-source tools and libraries  
-
-## Contact
-
-Student: Bhavya Jain  
-Email: [Your University Email]  
-GitHub: [Your GitHub Profile]  
-Course Coordinator: Mr. Jay Shankar Sharma  
-Consultation Hours: Thursday & Friday, 5–6 PM, LHC 308F  
+Open-source tools and libraries   
