@@ -161,19 +161,8 @@ APP_ENV=development
 
 ![Pipeline Status](https://img.shields.io/badge/pipeline-passing-brightgreen)
 
-## Testing
 
-### Test Types
-
-Unit Tests: `pytest` (`python -m pytest tests/ -v`)  
-Integration Tests: Not included (CSV + UI scope)  
-E2E Tests: Not included  
-
-### Test Coverage
-
-Coverage reporting is not configured in this repository; CI runs the pytest suite for regression protection.
-
-## Monitoring & Logging
+## Monitoring 
 
 ### Monitoring Setup
 
@@ -181,11 +170,8 @@ Coverage reporting is not configured in this repository; CI runs the pytest suit
 **Custom metrics:** File-based demo metrics; regenerate with `utils/generate_sample_data.py`.  
 **Alerts:** Not implemented (thresholds are visual only in the UI).  
 
-### Logging
 
-Structured JSON logging and ELK aggregation are **not** part of this submission; Streamlit and container logs go to stdout/stderr.
-
-## Docker & Kubernetes
+## Docker 
 
 ### Docker Images
 
@@ -197,18 +183,8 @@ docker build -t devopsprojectgoldensignaldashboard:latest .
 docker run --rm -p 8501:8501 devopsprojectgoldensignaldashboard:latest
 ```
 
-### Kubernetes Deployment
-
-Kubernetes manifests are **not** included. A future extension would package this image behind an Ingress and ConfigMap-driven data source.
-
-## Performance Metrics
-
-| Metric | Target | Current |
-|--------|--------|---------|
-| Build Time | < 5 min | Typical local build: ~2–4 min *(environment-dependent)* |
-| Test Coverage | > 80% | Not measured; focused pytest suite only |
-| Deployment Frequency | Daily | Manual / on-demand (academic) |
-| Mean Time to Recovery | < 1 hour | N/A (demo app) |
+## 🚀 Live Demo
+https://devopsprojectgoldensignaldashboard.streamlit.app/
 
 ## Documentation
 
