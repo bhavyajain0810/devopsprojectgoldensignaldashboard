@@ -103,6 +103,7 @@ devopsprojectgoldensignaldashboard/
 ├── app.py
 ├── requirements.txt
 ├── Dockerfile
+├── docker-compose.yml
 ├── .gitignore
 ├── LICENSE
 ├── data/
@@ -159,7 +160,7 @@ APP_ENV=development
 
 ### Pipeline Status
 
-![Pipeline Status](https://img.shields.io/badge/pipeline-passing-brightgreen)
+![CI](https://github.com/bhavyajain0810/devopsprojectgoldensignaldashboard/actions/workflows/ci.yml/badge.svg)
 
 
 ## Monitoring 
@@ -172,6 +173,13 @@ APP_ENV=development
 
 
 ## Docker 
+
+### Build and run with Docker Compose
+
+```bash
+docker-compose up --build
+```
+Open http://localhost:8501
 
 ### Docker Images
 
